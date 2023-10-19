@@ -1,16 +1,9 @@
 # forced_updates_demo
 
-A new Flutter project.
+A demo project to illustrate how to show forced and optional updates in your app.
 
-## Getting Started
+forced updates
 
-This project is a starting point for a Flutter application.
+![forced](https://github.com/Iamkosgei/flutter-forced-updates/assets/14147462/b6246890-adf9-48c6-870c-8f66275959a1)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Optional updates](https://github.com/Iamkosgei/flutter-forced-updates/assets/14147462/070b3de3-aca1-4754-8adf-3876c0bdb512)
