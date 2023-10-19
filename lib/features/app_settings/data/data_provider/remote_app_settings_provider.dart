@@ -14,6 +14,13 @@ class RemoteAppSettingsProviderImpl implements RemoteAppSettingsProvider {
   Future<AppVersionModel> getAppVersion() async {
     final firebaseRemoteConfig = FirebaseRemoteConfig.instance;
 
+    await firebaseRemoteConfig.setConfigSettings(
+      RemoteConfigSettings(
+        fetchTimeout: const Duration(seconds: 60),
+        minimumFetchInterval: Duration.zero,
+      ),
+    );
+
     await firebaseRemoteConfig.fetchAndActivate();
     final appVersionStr = firebaseRemoteConfig.getString('app_versions');
 
